@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>08 - Weather API || Advent of JavaScript</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="https://assets.ubuntu.com/v1/vanilla-framework-version-3.9.0.min.css" />
+  <link href='https://fonts.googleapis.com/css?family=Krona One' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+
+</head>
+
+<body style="background: #E9F5FA; height: 1000px; width: 2000px;">
+  <div class="row u-align--center">
+
+    <div class="col-1 u-align--center mon_8">
+      <div class="u-align--center">
+        <h5>MON</h5>
+        <h1>8</h1>
+      </div>
+
+      <div class="u-align--center" style="background-color: #4DB0D3; height: 100%; border-radius: 50px; ">
+        <div class="cloudy">
+          <img class="u-align--center" src="images/cloudy.svg" alt="">
+        </div>
+  
+        <div  class="u-align--center ">
+          <p class="div_temperature_mon_8">72°</p>
+        </div>
+
+        <div class="u-align--center div_text_mon_8">
+          <div class="u-float-left"  style="padding-left: 30%;">
+            <img src="images/precipitation.svg" alt="">
+          </div>
+          <div class="u-float-left"  style="padding-left: 5%;">
+            <p class="u-align--center">84%</p>
+          </div>
+
+          <div class="u-float-left"  style="padding-left: 30%;">
+            <img src="images/low.svg" alt="">
+          </div>
+          <div class="u-float-left"  style="padding-left: 5%;">
+            <p class="u-align--center">28°</p>
+          </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="col-1 u-align--center thur_9">
+      <div class="u-align--center">
+        <h5>THUR</h5>
+        <h1>9</h1>
+      </div>
+
+      <div class="u-align--center" style="background-color: #E6DF95; height: 100%; border-radius: 50px;">
+        <div class="sunny">
+          <img class="u-align--center" src="images/sunny.svg" alt="">
+        </div>
+  
+        <div  class="u-align--center ">
+          <p class="div_temperature_thur_9">65°</p>
+        </div>
+
+        <div class="u-align--center div_text_thur_9">
+          <div class="u-float-left"  style="padding-left: 30%;">
+            <img src="images/precipitation.svg" alt="">
+          </div>
+          <div class="u-float-left"  style="padding-left: 5%;">
+            <p class="u-align--center">84%</p>
+          </div>
+
+          <div class="u-float-left"  style="padding-left: 30%;">
+            <img src="images/low.svg" alt="">
+          </div>
+          <div class="u-float-left"  style="padding-left: 5%;">
+            <p class="u-align--center">28°</p>
+          </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="col-1 u-align--center fri_10">
+      <div class="u-align--center">
+        <h5>FRI</h5>
+        <h1>10</h1>
+      </div>
+
+      <div class="u-align--center" style="background-color: #0e2e3a; height: 100%; border-radius: 50px;">
+        <div class="stormy">
+          <img class="u-align--center" src="images/stormy.svg" alt="">
+        </div>
+  
+        <div  class="u-align--center ">
+          <p class="div_temperature_fri_10">67°</p>
+        </div>
+
+        <div class="u-align--center div_text_fri_10">
+          <div class="u-float-left"  style="padding-left: 30%;">
+            <img src="images/precipitation.svg" alt="">
+          </div>
+          <div class="u-float-left"  style="padding-left: 5%;">
+            <p class="u-align--center">84%</p>
+          </div>
+
+          <div class="u-float-left"  style="padding-left: 30%;">
+            <img src="images/low.svg" alt="">
+          </div>
+          <div class="u-float-left"  style="padding-left: 5%;">
+            <p class="u-align--center">28°</p>
+          </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="col-1 u-align--center sat_11">
+      <div class="u-align--center">
+        <h5>SAT</h5>
+        <h1>11</h1>
+      </div>
+
+      <div class="u-align--center" style="background-color: #bce1ef; height: 100%; border-radius: 50px;">
+        <div class="snowy">
+          <img class="u-align--center" src="images/snowy.svg" alt="">
+        </div>
+  
+        <div  class="u-align--center ">
+          <p class="div_temperature_sat_11">32°</p>
+        </div>
+
+        <div class="u-align--center div_text_sat_11">
+          <div class="u-float-left"  style="padding-left: 30%;">
+            <img src="images/precipitation.svg" alt="">
+          </div>
+          <div class="u-float-left"  style="padding-left: 5%;">
+            <p class="u-align--center">84%</p>
+          </div>
+
+          <div class="u-float-left"  style="padding-left: 30%;">
+            <img src="images/low.svg" alt="">
+          </div>
+          <div class="u-float-left"  style="padding-left: 5%;">
+            <p class="u-align--center">28°</p>
+          </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="col-1 u-align--center sun_12">
+      <div class="u-align--center">
+        <h5>SUN</h5>
+        <h1>12</h1>
+      </div>
+
+      <div class="u-align--center" style="background-color: #4db0d3; height: 100%; border-radius: 50px;">
+        <div class="partly-cloudy">
+          <img class="u-align--center" src="images/partly-cloudy.svg" alt="">
+        </div>
+  
+        <div  class="u-align--center ">
+          <p class="div_temperature_sun_12">57°</p>
+        </div>
+
+        <div class="u-align--center div_text_sun_12">
+          <div class="u-float-left"  style="padding-left: 30%;">
+            <img src="images/precipitation.svg" alt="">
+          </div>
+          <div class="u-float-left"  style="padding-left: 5%;">
+            <p class="u-align--center">84%</p>
+          </div>
+
+          <div class="u-float-left"  style="padding-left: 30%;">
+            <img src="images/low.svg" alt="">
+          </div>
+          <div class="u-float-left"  style="padding-left: 5%;">
+            <p class="u-align--center">28°</p>
+          </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="col-1 u-align--center mon_13">
+      <div class="u-align--center">
+        <h5>MON</h5>
+        <h1>13</h1>
+      </div>
+
+      <div class="u-align--center" style="background-color: #2b8bad; height: 100%; border-radius: 50px;">
+        <div class="partly-cloudy">
+          <img class="u-align--center" src="images/rainy.svg" alt="">
+        </div>
+  
+        <div  class="u-align--center ">
+          <p class="div_temperature_mon_13">63°</p>
+        </div>
+
+        <div class="u-align--center div_text_mon_13">
+          <div class="u-float-left"  style="padding-left: 30%;">
+            <img src="images/precipitation.svg" alt="">
+          </div>
+          <div class="u-float-left"  style="padding-left: 5%;">
+            <p class="u-align--center">84%</p>
+          </div>
+
+          <div class="u-float-left"  style="padding-left: 30%;">
+            <img src="images/low.svg" alt="">
+          </div>
+          <div class="u-float-left"  style="padding-left: 5%;">
+            <p class="u-align--center">28°</p>
+          </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="col-1 u-align--center tue_14">
+      <div class="u-align--center">
+        <h5>TUE</h5>
+        <h1>14</h1>
+      </div>
+
+      <div class="u-align--center" style="background-color: #e6df95; height: 100%; border-radius: 50px;">
+        <div class="sunny">
+          <img class="u-align--center" src="images/sunny.svg" alt="">
+        </div>
+  
+        <div  class="u-align--center ">
+          <p class="div_temperature_tue_14">71°</p>
+        </div>
+
+        <div class="u-align--center div_text_tue_14">
+          <div class="u-float-left"  style="padding-left: 30%;">
+            <img src="images/precipitation.svg" alt="">
+          </div>
+          <div class="u-float-left"  style="padding-left: 5%;">
+            <p class="u-align--center">84%</p>
+          </div>
+
+          <div class="u-float-left"  style="padding-left: 30%;">
+            <img src="images/low.svg" alt="">
+          </div>
+          <div class="u-float-left"  style="padding-left: 5%;">
+            <p class="u-align--center">28°</p>
+          </div>
+          </div>
+      </div>
+    </div>
+
+    
+    
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>

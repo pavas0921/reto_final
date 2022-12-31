@@ -1,0 +1,163 @@
+h5{
+    text-align: center;
+     font-family: Krona One;
+     color: #4DB0D3;
+}
+
+h1{
+    text-align: center;
+     font-family: Krona One;
+     color: #4DB0D3;
+}
+
+.cloudy{
+    margin-left: -100px;
+    padding-top: 70px;
+    width: 220%;
+}
+
+.sunny{
+    margin-left: -152px;
+    padding-top: 30px;
+    width: 270%;
+}
+
+.stormy{
+    margin-left: -155px;
+    padding-top: 50px;
+    width: 290%;
+}
+
+.partly-cloudy{
+    margin-left: -190px;
+    padding-top: 30px;
+    width: 330%;
+}
+
+.snowy{
+    margin-left: -155px;
+    padding-top: 50px;
+    width: 290%;
+}
+
+.div_temperature_mon_8{
+    font-family: Oswald;
+    font-size: 80px;
+    margin-top: 100px;
+    color: #E6DF95;
+}
+
+
+
+.div_text_mon_8{
+    font-family: Oswald;
+    color: #D3EBF4;
+    margin-top: 100px;
+}
+
+.mon_8{
+    margin-left: 0px; width: 170px; padding-top: 100%; height: 100%px;
+}
+
+.thur_9{
+    margin-left: 120px; width: 170px; padding-top: 100%;
+}
+
+
+.div_temperature_thur_9{
+    font-family: Oswald;
+    font-size: 80px;
+    margin-top: 100px;
+    color: #1f7190
+}
+
+.div_text_thur_9{
+    font-family: Oswald;
+    color: #1f7190;
+    margin-top: 100px;
+}
+
+.fri_10{
+    width: 170px; padding-top: 100%; margin-left: 240px;
+}
+
+.div_temperature_fri_10{
+    font-family: Oswald;
+    font-size: 80px;
+    margin-top: 110px;
+    color: #e6df95
+}
+
+.div_text_fri_10{
+    font-family: Oswald;
+    color: #d6eef7;
+    margin-top: 100px;
+}
+
+.sat_11{
+    width: 170px; padding-top: 100%; margin-left: 360px;
+}
+
+.div_temperature_sat_11{
+    font-family: Oswald;
+    font-size: 80px;
+    margin-top: 100px;
+    color:#0e2e3a;
+}
+
+.div_text_sat_11{
+    font-family: Oswald;
+    color: #23738f;
+    margin-top: 100px;
+}
+
+.sun_12{
+    width: 170px; padding-top: 100%; margin-left: 480px;
+}
+
+.div_temperature_sun_12{
+    font-family: Oswald;
+    font-size: 80px;
+    margin-top: 108px;
+    color:#e6df95;
+}
+
+.div_text_sun_12{
+    font-family: Oswald;
+    color: #c9e5f0;
+    margin-top: 100px;
+}
+
+.mon_13{
+    width: 170px; padding-top: 100%; margin-left: 595px;
+}
+
+.div_temperature_mon_13{
+    font-family: Oswald;
+    font-size: 80px;
+    margin-top: 100px;
+    color:#e6df95
+}
+
+.div_text_mon_13{
+    font-family: Oswald;
+    color: #c9e5f0;
+    margin-top: 100px;
+}
+
+.tue_14{
+    width: 170px; padding-top: 100%; margin-left: 707px;
+}
+
+.div_temperature_tue_14{
+    font-family: Oswald;
+    font-size: 80px;
+    margin-top: 115px;
+    color:#4db0d3
+}
+
+.div_text_tue_14{
+    font-family: Oswald;
+    color: #227290;
+    margin-top: 100px;
+}
